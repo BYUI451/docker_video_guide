@@ -3,7 +3,7 @@
 1. [Install Docker Desktop](https://www.docker.com/get-started)
 2. [Create a Dockerhub account](https://hub.docker.com/signup)
 
-The following links will take you to a video guide to run through steps 3-6. You will need to sign in using your BYUI email to access the videos. [Click here for Windows](https://web.microsoftstream.com/video/7f400270-3f54-4c13-9f26-e24ef752284f) and [Click here for Mac](https://web.microsoftstream.com/video/0faad757-2371-48c0-881b-b40221967251)
+The following links will take you to a video guide to run through steps 3-6. You will need to sign in using your BYUI email to access the videos. [Click here for Windows](https://web.microsoftstream.com/video/7f400270-3f54-4c13-9f26-e24ef752284f) or [Click here for Mac](https://web.microsoftstream.com/video/0faad757-2371-48c0-881b-b40221967251)
 
 3. [Pull the jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook) `docker pull jupyter/all-spark-notebook`
 4. Create a docker network `docker network create n451`
