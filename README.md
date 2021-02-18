@@ -99,6 +99,12 @@ With `docker run` we can get a full Spark environment up and running on our comp
 You could try using the [master files](https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf) from the United States IRS 990 forms about non-profit companies. Find the four region `.csv` files and explore.
 ## Getting started using `docker-compose`
 
+To create the docker compose file please read through the assumptions below and then you can come back here to watch [this video](https://web.microsoftstream.com/video/5294883b-5163-4b59-9289-0f12e6d10f85) video which will run through steps 2-3 for this part of the guide. 
+
+The video also help setup WSL2 for Windows computers. If you are using a Mac you should be able to configure these setting within Docker Desktop.
+
+WSL 2 is a new version of the Windows Subsystem for Linux architecture that powers the Windows Subsystem for Linux to run ELF64 Linux binaries on Windows. Its primary goals are to increase file system performance, as well as adding full system call compatibility. You can learn more about this [here](https://docs.microsoft.com/en-us/windows/wsl/).
+
 To use this section, I am assuming the following.
 
 - You have cloned this repo to your local computer.
